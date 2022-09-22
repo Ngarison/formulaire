@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//Injection d'un composant(App//seul composant racine) à l'intérieur d'un élément HTML(div by id=root);
 root.render(
   <React.StrictMode>
     <App />
